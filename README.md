@@ -68,4 +68,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Acknowledgements
 
 - [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API
--Gohil Digvijay (https://www.linkedin.com/in/gohildigvijay/) for project development
+-Gohil Digvijay (https://www.linkedin.com/in/digvijay-gohil-497822315?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app) for project development
