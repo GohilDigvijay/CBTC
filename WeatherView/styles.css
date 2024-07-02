@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(Cloud.jpg);
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(138, 185, 244, 0.8);
+
+}
+
+
+.container {
+    width: 500px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+@keyframes bgImageAnimation {
+    0% {
+        background-image: url(bgh1.jpg);
+        color: black;
+    }
+    20% {
+        background-image: url(Blue\ Modern\ Motivational\ LinkedIn\ Banner\ \(5\).jpg);
+        color: #fff;
+    }
+    40% {
+        background-image: url(bgh3.jpg);
+        color: aliceblue;
+    }
+    60% {
+        background-image: url(bgh4.jpg);
+        color: black;
+    }
+    80% {
+        background-image: url(bgh5.jpg); 
+    }
+    100% {
+        background-image: url(bgh1.jpg);
+    }
+}
+
+h1 {
+    font-size: 34px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333; 
+    padding: 10px; 
+    background-size: cover;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    animation: bgImageAnimation 20s linear infinite; 
+    transition: opacity 0.3s; 
+}
+h1:hover {
+    opacity: 0.8; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+}
+
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    transition: background-color 0.3s; 
+}
+
+button:hover {
+    background-color: #0056b3; 
+}
+
+.weather-info {
+    height: fit-content;
+    margin: 20px;
+    font-size: 18px; 
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#error {
+    color: red;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.autocomplete-suggestions {
+    border: 1px solid #ddd;
+    max-height: 150px;
+    overflow-y: auto;
+    background-color: #fff;
+    position: absolute;
+    z-index: 1000;
+}
+.autocomplete-suggestion {
+    padding: 10px;
+    cursor: pointer;
+}
+.autocomplete-suggestion:hover {
+    background-color: #f0f0f0;
+}
+@media (max-width: 500px) {
+    input[type="text"] {
+        width: calc(100% - 20px);
+    }
+    .autocomplete-suggestions {
+        width: calc(100% - 20px); 
+    }
+}
+@media (max-width: 400px) {
+    input[type="text"] {
+        width: calc(100% - 10px);
+    }
+}
+@media (max-width: 300px) {
+    input[type="text"] {
+        width: calc(100% - 10px); 
+    }
+}
+
+.container, button, input[type="text"] {
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+input[type="text"]:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 10px rgba(5, 23, 159, 0.1);
+}
+
