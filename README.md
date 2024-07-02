@@ -56,6 +56,7 @@ This Weather App provides current weather conditions for a given location. It fe
 1. Enter the name of a city in the search bar.
 2. Press the "Search" button or hit "Enter".
 3. The app will display the current weather information for the specified city.
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -67,4 +68,4 @@ Contributions are welcome! Please fork the repository and create a pull request 
 ## Acknowledgements
 
 - [OpenWeatherMap](https://openweathermap.org/) for providing the weather data API
--Gohil Digvijay (https://www.linkedin.com/in/digvijaygohil/) for project development
+-Gohil Digvijay (https://www.linkedin.com/in/gohildigvijay/) for project development
