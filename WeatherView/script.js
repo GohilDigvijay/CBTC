@@ -1,4 +1,4 @@
-const apiKey = '7eda5234d62a682aa8cafe26e2b578f0';
+const apiKey = 'YOUR_OPENWEATHER_API_KEY';
 const apiUrl = 'https://api.openweathermap.org/data/2.5/weather';
 let cities = [];
 
